@@ -1,4 +1,3 @@
-import com.sun.org.apache.xerces.internal.xinclude.XIncludeHandler;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
@@ -11,7 +10,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Mesto1Test {
 
-    String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGVkMDNiMjlmYjYwOTAwM2QzYzk1MjkiLCJpYXQiOjE2OTgxNDI4OTIsImV4cCI6MTY5ODc0NzY5Mn0.j4iO2WjeeinDoPgLYkiMm3LdtopenXtmXw2HvXlLtzI";
+    String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGVkMDNiMjlmYjYwOTAwM2QzYzk1MjkiLCJpYXQiOjE2OTgxNTI2MjMsImV4cCI6MTY5ODc1NzQyM30.bQwJEKDJZ1rjW-gtqSJFFqJyGt-qNNiZdZ5TVqgudvg";
 
     @Before
     public void setUp() {
